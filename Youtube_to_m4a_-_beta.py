@@ -11,7 +11,7 @@ def helpMenu():
     if helpinusr == ("FFMPEG"):
         print("https://community.chocolatey.org/packages/ffmpeg")
         if input("Do you want this program to automate the installation of FFMPEG?: [y]/[n]") == "Yes":
-            print("ERROR:000x. If you contact a help desk tell them it is an ID  -  10  -  T error ")  #TODO:Send the ffmpeg install request to command line 
+            print("ERROR:000x.")  #TODO:Send the ffmpeg install request to command line
     elif helpinusr == ("choco"):
         print("https://chocolatey.org/install#individual")
     elif helpinusr == "piq":
